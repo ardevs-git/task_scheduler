@@ -10,7 +10,7 @@ import time
 sender_email = "a.r.devs2021@gmail.com"
 sender_password = "obft edfk dkvm clrk" 
 
-receiver_emails = ["kumarakash95075@gmail.com", "mr.prathvirajchavan.com"]
+receiver_emails = ["kumarakash95075@gmail.com", "mr.prathvirajchavan@gmail.com"]
 
 
 tasks_data = [
