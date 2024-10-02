@@ -57,7 +57,7 @@ def send_task_notification():
     body = f"You have a new task assigned:\n\nTask: {task['task']}\nDuration: {task['duration']} minutes\nDeadline: {task['deadline']}"
     send_email(subject, body, receiver_emails)
 
-
+schedule.every().day.at("13:31").do(send_task_notification) 
 schedule.every().day.at("04:00").do(send_task_notification)  # 4 AM
 schedule.every().day.at("05:00").do(send_task_notification)  # 5 AM
 schedule.every().day.at("06:00").do(send_task_notification)  # 6 AM
